@@ -1,0 +1,376 @@
+.login-page {
+    min-height: 100vh;
+    background: #f5f7f9;
+    position: relative;
+  }
+  
+  .login-content {
+    padding-top: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: calc(100vh - 60px);
+  }
+  
+  .loginModal {
+    width: 400px;
+    margin: 20px auto;
+    position: relative;
+  }
+  
+  .ivu-modal-content-no-mask {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 1px 6px rgba(0,0,0,.2);
+  }
+  
+  .ivu-modal-content {
+    background-color: #fff;
+    border-radius: 20px;
+    position: relative;
+    margin: 0 auto;
+    height: 100%;
+    max-width: 450px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  .loginModal[data-v-a8e28a02] .ivu-modal-header {
+    background-image: url(https://treasurefun.xyz/img/img_header_bg_S.5ccb4208.png);
+    padding: 0;
+    border-bottom: 0;
+    height: 65px;
+    padding: 10px 0;
+    border-radius: 20px 20px 0 0;
+    background-size: 100% 100%;
+    background-repeat: no-repeat
+  }
+  
+  .title-black-PR-18 {
+    font-size: 24px;
+    color: #000;
+    font-weight: 600;
+    margin-left: 20px;
+  }
+  
+  .font-weight-900 {
+    font-weight: 900;
+  }
+  
+  .ivu-modal-body {
+    padding: 24px;
+    font-size: 14px;
+    line-height: 1.5;
+    height: calc(100% - 281px);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .wallet-btn-wrap {
+    margin-bottom: 30px;
+    position: relative;
+  }
+  
+  .wallet-btn-wrap:after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid #e8eaec;
+  }
+  
+  .wallet-btn {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    background: linear-gradient(#fff, #fff) padding-box,
+                linear-gradient(90deg, #00c2ff 0%, #00ff9d 100%) border-box;
+    border: 2px solid transparent;
+  }
+  
+  .wallet-btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(0, 194, 255, 0.2);
+  }
+  
+  .wallet-btn img {
+    width: 24px;
+    height: 24px;
+    margin-right: 12px;
+    opacity: 0.8;
+  }
+  
+  .wallet-btn p {
+    color: #666;
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  .ivu-form {
+    margin-top: 20px;
+  }
+  .ivu-form-signup {
+    margin-top: -2px;
+  }
+  
+  .ivu-form-item {
+    margin-bottom: 0px;
+  }
+  
+  .ivu-form-item-label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  
+  .ivu-form-item-label:after {
+    content: "*";
+    color: #ff4d4f;
+    margin-left: 4px;
+  }
+  
+  .ivu-input-wrapper {
+    position: relative;
+    padding-bottom: 10px;
+  }
+  
+  .ivu-input {
+    width: 100%;
+    height: 45px;
+    padding: 0 16px;
+    border: 2px solid #e8eaec;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    background: #fff;
+  }
+  
+  .ivu-input:focus {
+    border-color: #1890ff;
+    background: #fff;
+    box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.1);
+  }
+  
+  .ivu-input-suffix {
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #999;
+  }
+  
+  .ivu-form-item-error-tip {
+    color: #ed4014;
+    font-size: 12px;
+    margin-top: 4px;
+  }
+  
+  .forgot-password {
+    text-align: right;
+    margin: 0 0 24px;
+  }
+  
+  .forgot-password a {
+    background: linear-gradient(90deg, #00c2ff 0%, #00ff9d 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  
+  .footerBtn {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 10px;
+  }
+  
+  .ivu-btn {
+    height: 45px;
+    padding: 0 24px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    position: relative;
+  }
+  
+  .ivu-btn-primary {
+    background: linear-gradient(90deg, #00c2ff 0%, #00ff9d 100%);
+    border: none;
+    color: #fff;
+  }
+  
+  .ivu-btn-primary:hover {
+    opacity: 0.9;
+    transform: translateY(-1px);
+  }
+  
+  .ivu-btn-info {
+    background: linear-gradient(#fff, #fff) padding-box,
+                linear-gradient(90deg, #00c2ff 0%, #00ff9d 100%) border-box;
+    border: 2px solid transparent;
+    color: #666;
+  }
+  
+  .ivu-btn-info:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(0, 194, 255, 0.2);
+    color: #00c2ff;
+  }
+  
+  .signup-text {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  
+  .signup-text a {
+    background: linear-gradient(90deg, #00c2ff 0%, #00ff9d 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+    margin-left: 4px;
+    text-decoration: none;
+  }
+  
+  .help-button {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .help-button:hover {
+    transform: scale(1.1);
+  }
+  
+  .helpIconStyle {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  .text-align-end {
+    text-align: right;
+  }
+  
+  .text-align-center {
+    text-align: center;
+  }
+  
+  .margin-top-10 {
+    margin-top: 10px;
+  }
+  
+  .margin-top-20 {
+    margin-top: 20px;
+  }
+  
+  .specialText-PR-16 {
+    color: #1890ff;
+    font-size: 16px;
+  }
+  
+  .font-weight-700 {
+    font-weight: 700;
+  }
+  
+  @media screen and (min-width: 451px) {
+    .loginModal {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 450px) {
+    .loginModal[data-v-a8e28a02] .ivu-modal-fullscreen .ivu-modal-body {
+      position: unset;
+    }
+  
+    .loginModal[data-v-a8e28a02] .ivu-modal-content {
+      border-radius: 0;
+      height: 100vh;
+    }
+  
+    .loginModal[data-v-a8e28a02] .ivu-modal-header {
+      border-radius: 0;
+    }
+  
+    .ivu-modal-body {
+      padding: 20px;
+    }
+  
+    .loginModal[data-v-a8e28a02] .ivu-modal-wrap {
+      top: 55px;
+      z-index: 99 !important;
+    }
+  
+    .loginModal .wallet-btn-wrap[data-v-a8e28a02] {
+      margin-bottom: 25px;
+    }
+  
+    .loginModal .wallet-btn-wrap[data-v-a8e28a02]:after {
+      content: "";
+      position: absolute;
+      bottom: -10px;
+    }
+  
+    .loginModal .footerBtn[data-v-a8e28a02] {
+      flex-direction: column-reverse;
+    }
+  }
+  
+  .verification-code-wrapper {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .verification-code-wrapper .ivu-input {
+    flex: 1;
+  }
+  
+  .verification-code-btn {
+    height: 48px !important;
+    padding: 0 15px !important;
+    white-space: nowrap;
+    min-width: 120px;
+  }
+  
+  @media screen and (max-width: 450px) {
+    .verification-code-btn {
+      min-width: 100px;
+      padding: 0 10px !important;
+    }
+  }
+  
+  .error-message {
+    background-color: #fff2f0;
+    border: 1px solid #ffccc7;
+    color: #ff4d4f;
+    padding: 8px 12px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: left;
+  } 

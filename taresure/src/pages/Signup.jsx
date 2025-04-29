@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import LazyImage from '../components/LazyImage';
-import '../styles/Login.css';
+import '../styles/Signup.css';
 import Header from '../components/Header';
 
 const Signup = () => {
@@ -73,7 +73,7 @@ const Signup = () => {
                 className="ivu-form-signup ivu-form-label-top"
               >
                 <div className="ivu-form-item">
-                  <label className="ivu-form-item-label">Username</label>
+                  <label className="ivu-form-item-label">User name</label>
                   <div className="ivu-form-item-content">
                     <div className="ivu-input-wrapper">
                       <input
@@ -81,7 +81,7 @@ const Signup = () => {
                         autoComplete="off"
                         spellCheck="false"
                         type="text"
-                        placeholder="Enter Username"
+                        placeholder="Please Enter User Name"
                         className="ivu-input"
                         value={formData.username}
                         onChange={handleChange}
@@ -99,7 +99,7 @@ const Signup = () => {
                         autoComplete="off"
                         spellCheck="false"
                         type={showPassword ? "text" : "password"}
-                        placeholder="Enter Password"
+                        placeholder="Please Enter Your Password"
                         className="ivu-input"
                         value={formData.password}
                         onChange={handleChange}
@@ -120,7 +120,7 @@ const Signup = () => {
                         autoComplete="off"
                         spellCheck="false"
                         type={showConfirmPassword ? "text" : "password"}
-                        placeholder="Confirm Password"
+                        placeholder="Please Re-Enter Your Password"
                         className="ivu-input"
                         value={formData.confirmPassword}
                         onChange={handleChange}
@@ -141,7 +141,7 @@ const Signup = () => {
                         autoComplete="off"
                         spellCheck="false"
                         type="email"
-                        placeholder="Enter Email"
+                        placeholder="Please Enter Your Email"
                         className="ivu-input"
                         value={formData.email}
                         onChange={handleChange}
