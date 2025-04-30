@@ -1,0 +1,129 @@
+.title-black-PR-26 {
+  font-size: 26px;
+  color: #000;
+  font-weight: 700;
+}
+
+.title-grey999-PR-18 {
+  font-size: 18px;
+  color: #999;
+  line-height: 1.5;
+}
+
+.text-algin-center {
+  text-align: center;
+}
+
+.margin-bottom-25 {
+  margin-bottom: 25px;
+}
+
+.margin-left-10 {
+  margin-left: 10px;
+}
+
+.securityVerificationTAPModal__footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.securityVerificationTAPModal__cancelBtn {
+  min-width: 120px;
+  height: 40px;
+  border: 1px dashed #dcdee2;
+  border-radius: 7px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.securityVerificationTAPModal__gradientBtn {
+  min-width: 120px;
+}
+
+.border-radius-7 {
+  border-radius: 7px;
+}
+
+.color-white {
+  color: white;
+}
+
+.backgroundGradient {
+  width: 100%;
+  height: 40px;
+  border: none;
+  background: linear-gradient(90deg, #00c2ff 0%, #00ff9d 100%);
+  cursor: pointer;
+}
+
+.GradientBtn-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.GradientBtn-div-p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* Input styles */
+.ivu-input-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.ivu-input {
+  width: 100%;
+  height: 40px;
+  padding: 4px 11px;
+  border: 1px solid #dcdee2;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: all .2s;
+}
+
+.ivu-input:focus {
+  border-color: #00c2ff;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 194, 255, 0.2);
+}
+
+.ivu-input-icon {
+  position: absolute;
+  right: 11px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #808695;
+}
+
+.ivu-load-loop {
+  animation: ani-load-loop 1s linear infinite;
+}
+
+@keyframes ani-load-loop {
+  from {
+    transform: translateY(-50%) rotate(0deg);
+  }
+  to {
+    transform: translateY(-50%) rotate(360deg);
+  }
+}
+
+/* Form styles */
+.ivu-form-item {
+  margin-bottom: 24px;
+}
+
+.ivu-form-item-required .ivu-form-item-content:before {
+  content: '*';
+  display: inline-block;
+  margin-right: 4px;
+  color: #ed4014;
+  font-size: 14px;
+  font-family: SimSun;
+  line-height: 1;
+} 

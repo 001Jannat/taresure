@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import LazyImage from '../components/LazyImage';
@@ -9,8 +10,12 @@ import Featured from '../components/Featured';
 import CreateSell from '../components/CreateSell';
 import Discover from '../components/Discover';
 import NavFooter from '../components/NavFooter';
+import TUFTModal from '../components/TUFTModal';
 
 const Home = () => {
+  const [showTUFTModal, setShowTUFTModal] = useState(false);
+  const navigate = useNavigate();
+
   return (
     <div className="home-container">
       <Header />
@@ -30,14 +35,22 @@ const Home = () => {
             </span>
           </div>
           <div className="product-btn-box">
-            <button type="button" className="ivu-btn ivu-btn-primary">
+            <button 
+              type="button" 
+              className="ivu-btn ivu-btn-primary"
+              onClick={() => setShowTUFTModal(true)}
+            >
               <span>
                 <p className="title-white-PR-20 font-weight-600">
                   Get TUFT
                 </p>
               </span>
             </button>
-            <button type="button" className="ivu-btn ivu-btn-primary">
+            <button 
+              type="button" 
+              className="ivu-btn ivu-btn-primary"
+              onClick={() => navigate('/auction')}
+            >
               <span>
                 <p className="title-white-PR-20 font-weight-600">
                   Auction
@@ -125,14 +138,14 @@ const Home = () => {
           <Featured />
 
         </div>
-     {/* create sell */}
-     <CreateSell />
-     {/* discover */}
-     <div className="explanationArea">
-     <Discover />
-     </div>
-     {/* footer */}
-     <Footer />
+        {/* create sell */}
+        <CreateSell />
+        {/* discover */}
+        <div className="explanationArea">
+          <Discover />
+        </div>
+        {/* footer */}
+        <Footer />
         
         {/* <div className="help-button">
           <LazyImage
@@ -142,10 +155,14 @@ const Home = () => {
           />
          
         </div> */}
-           <NavFooter />
-
-      
+        <NavFooter />
       </div>
+
+      {/* TUFT Modal */}
+      <TUFTModal 
+        isVisible={showTUFTModal} 
+        onClose={() => setShowTUFTModal(false)} 
+      />
     </div>
   );
 };

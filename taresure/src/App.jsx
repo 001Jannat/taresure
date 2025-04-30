@@ -6,6 +6,8 @@ import Signup from './pages/Signup';
 import Service from './pages/Service';
 import Download from './pages/Download';
 import Security from './pages/Security';
+import Auction from './pages/Auction';
+import Message from './pages/Message';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
           <Route path="/service" element={<Service />} />
           <Route path="/download" element={<Download />} />
           <Route path="/security" element={<Security />} />
+          <Route path="/auction" element={<Auction />} />
+          <Route path="/message" element={<Message />} />
         </Routes>
       </Router>
   );

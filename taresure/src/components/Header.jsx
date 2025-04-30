@@ -2,11 +2,13 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { HiMenu } from 'react-icons/hi';
 import '../styles/Header.css';
+import SecurityVerificationModal from './SecurityVerificationModal';
 
 const Header = () => {
   const [menuVisible, setMenuVisible] = useState(false);
   const [airdropMenuVisible, setAirdropMenuVisible] = useState(false);
   const [languageDrawerVisible, setLanguageDrawerVisible] = useState(false);
+  const [securityModalVisible, setSecurityModalVisible] = useState(false);
   const navigate = useNavigate();
 
   const languages = [
@@ -54,8 +56,8 @@ const Header = () => {
   };
 
   const handleMenuClick = (path) => {
-    if (path === '/message' || path === '/security') {
-      navigate('/login');
+    if (path === '/security') {
+      setSecurityModalVisible(true);
     } else if (path === '/language') {
       toggleLanguageDrawer();
     } else if (path.startsWith('http')) {
@@ -208,6 +210,12 @@ const Header = () => {
           ))}
         </div>
       </div>
+
+      {/* Security Verification Modal */}
+      <SecurityVerificationModal 
+        isVisible={securityModalVisible} 
+        onClose={() => setSecurityModalVisible(false)} 
+      />
     </>
   );
 };

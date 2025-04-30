@@ -1,0 +1,266 @@
+.ivu-modal-wrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(55, 55, 55, 0.6);
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ivu-modal {
+  width: 333px;
+  position: relative;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.ivu-modal-content {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.ivu-modal-header {
+  padding: 16px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-content h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.header-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.ivu-modal-body {
+  padding: 20px;
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 15px;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  background-image: linear-gradient(white, white), 
+                    linear-gradient(90deg, #5cbffe, #a0f5d0, #ffd7c8);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
+.title-green-PR-14 {
+  font-family: PosteramaText-Regular, Times New Roman, Times, sans-serif;
+  font-size: .875rem;
+  color: #00ac4f;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px 120px 12px 15px;
+  border: none;
+  background: transparent;
+  font-size: 14px;
+  outline: none;
+}
+
+.input-suffix {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.input-suffix span {
+  color: #666;
+  font-size: 14px;
+}
+
+.max-btn {
+  background: #65c6f9;
+  color: white;
+  border: none;
+  padding: 6px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  color: #666;
+  font-size: 14px;
+}
+
+.deposit-link {
+  color: #00b578;
+  text-decoration: none;
+}
+
+.value {
+  color: #333;
+  font-weight: 500;
+}
+
+.tuft-received {
+  margin: 20px 0;
+}
+
+.tuft-received h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.amount-display {
+  padding: 12px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  background-image: linear-gradient(white, white), 
+                    linear-gradient(90deg, #5cbffe, #a0f5d0, #ffd7c8);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
+
+.rules {
+  padding: 20px;
+  border-radius: 13px;
+  border: 1px dashed #42cbde;
+  background: rgba(221, 255, 252, .5);
+  margin: 20px 0;
+}
+
+.rules-title {
+  color: #666;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0 0 12px 0;
+}
+
+.rules ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.rules li {
+  color: #666;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 8px;
+}
+
+.rules li:last-child {
+  margin-bottom: 0;
+}
+
+.sell-now-btn {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  background: linear-gradient(90deg, #5cbffe 0%, #a0f5d0 100%);
+  transition: opacity 0.2s;
+}
+
+.sell-now-btn:hover {
+  opacity: 0.9;
+}
+
+.ivu-modal-footer {
+  padding-bottom: 20px;
+}
+
+.ivu-modal-footer .ivu-btn {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.ivu-modal-footer .ivu-row-flex {
+  justify-content: center;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.purchase-qty-input {
+  padding: 8px 8px 8px 20px;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
+  background-image: linear-gradient(#fff, #fff), 
+                    linear-gradient(90deg, #5cbffe, #a0f5d0, #ffd7c8);
+}
+
+.purchase-qty-input__display {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.margin-bottom-15 {
+  margin-bottom: 15px;
+}
+
+.margin-bottom-5 {
+  margin-bottom: 5px;
+}
+
+.title-black-PR-18 {
+  font-size: 18px;
+  color: #333;
+  font-weight: 700;
+}
+
+.title-grey666-PR-14 {
+  font-size: 14px;
+  color: #666;
+}
+
+.title-black-PR-14 {
+  font-size: 14px;
+  color: #333;
+  font-weight: 700;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+} 

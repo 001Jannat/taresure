@@ -1,0 +1,275 @@
+.ivu-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #f5f7f9;
+}
+
+.ivu-layout-header {
+  background: #fff;
+  padding: 0;
+  height: 64px;
+  line-height: 64px;
+  width: 100%;
+}
+
+.header {
+  padding: 0 20px;
+  position: relative;
+}
+
+.header-logo img {
+  height: 40px;
+  vertical-align: middle;
+}
+
+.header-btns {
+  display: flex;
+  align-items: center;
+}
+
+.ivu-badge {
+  position: relative;
+  display: inline-block;
+}
+
+.ivu-badge-dot {
+  position: absolute;
+  top: 0;
+  right: -6px;
+  width: 8px;
+  height: 8px;
+  background: #ed4014;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+
+.specialText-PR-16 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.specialLine {
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, #f0b90b, transparent);
+}
+
+.content-wrap {
+  flex: 1;
+  position: relative;
+  padding: 20px;
+  margin-top: 64px;
+}
+
+.internal-message-mobile {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.headerImg {
+  position: relative;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerImg-text {
+  color: black;
+  font-size: 24px;
+  position: relative;
+  z-index: 1;
+}
+
+.headerImg img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.arrowLeft {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: black;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.message-body {
+  padding: 20px;
+}
+
+/* Tabs Styles */
+.ivu-tabs {
+  position: relative;
+}
+
+.ivu-tabs-bar {
+  border-bottom: 1px solid #dcdee2;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.ivu-tabs-nav-container {
+  overflow: hidden;
+  font-size: 14px;
+  line-height: 1.5;
+  box-sizing: border-box;
+  position: relative;
+  white-space: nowrap;
+  margin-bottom: -1px;
+  transition: padding .3s ease;
+}
+
+.ivu-tabs-nav-wrap {
+  overflow: hidden;
+  margin-bottom: -1px;
+}
+
+.ivu-tabs-nav-scroll {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.ivu-tabs-nav {
+  padding-left: 0;
+  margin: 0;
+  float: left;
+  list-style: none;
+  position: relative;
+  transition: transform .3s ease-in-out;
+}
+
+.ivu-tabs-ink-bar {
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  background-color: #2d8cf0;
+  z-index: 1;
+  transition: transform .3s ease-in-out;
+}
+
+.ivu-tabs-tab {
+  display: inline-block;
+  height: 40px;
+  line-height: 38px;
+  padding: 0 16px;
+  margin-right: 16px;
+  box-sizing: border-box;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  transition: color .3s ease-in-out;
+}
+
+.ivu-tabs-tab-active {
+  color: #2d8cf0;
+}
+
+.ivu-tabs-nav-scroll-disabled {
+  display: none;
+}
+
+.btn-read-all {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.specialText-PR-12 {
+  font-size: 12px;
+  color: #999;
+}
+
+.ivu-tabs-content {
+  position: relative;
+  overflow: hidden;
+}
+
+.ivu-tabs-content-animated {
+  transition: transform .3s ease-in-out;
+}
+
+.ivu-tabs-tabpane {
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.ivu-tabs-context-menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.helpIconStyle {
+  position: fixed;
+  right: 20px;
+  bottom: 80px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.ivu-layout-footer {
+  background: #fff;
+  padding: 24px;
+  color: #515a6e;
+  font-size: 14px;
+  position: relative;
+}
+
+.footer-nav-outer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-nav-item {
+  text-align: center;
+  padding: 8px;
+}
+
+.title-grey999-PFR-14 {
+  color: #999;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 0 10px;
+  }
+  
+  .headerImg {
+    height: 100px;
+  }
+  
+  .headerImg-text {
+    font-size: 20px;
+  }
+  
+  .content-wrap {
+    padding: 10px;
+  }
+  
+  .message-body {
+    padding: 10px;
+  }
+  
+  .helpIconStyle {
+    width: 40px;
+    height: 40px;
+    right: 10px;
+    bottom: 70px;
+  }
+} 
