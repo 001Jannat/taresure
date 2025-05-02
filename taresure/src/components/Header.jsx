@@ -3,6 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { HiMenu } from 'react-icons/hi';
 import '../styles/Header.css';
 import SecurityVerificationModal from './SecurityVerificationModal';
+import images from '../images.json';
 
 const Header = () => {
   const [menuVisible, setMenuVisible] = useState(false);
@@ -77,7 +78,7 @@ const Header = () => {
             <div className="header-logo cursor-pointer ivu-col ivu-col-span-xs-8 ivu-col-span-sm-8 ivu-col-span-md-4 ivu-col-span-lg-4 ivu-col-span-xl-4">
               <Link to="/">
                 <img
-                  src="https://image.treasurenft.xyz/img/img_logo_home.png"
+                  src={images.logos.homeLogo}
                   alt="logo"
                   loading="lazy"
                 />
@@ -88,7 +89,7 @@ const Header = () => {
               <div className="header-btns setMiddle margin-right-18">
                 <span className="ivu-badge">
                   <img
-                    src="https://image.treasurenft.xyz/icon/icon_notice_02.png"
+                    src={images.icons.notice}
                     alt="announcement"
                     loading="lazy"
                     className="setMiddle"
@@ -117,7 +118,7 @@ const Header = () => {
                 >
                   <li className="menu-wrap-item ivu-menu-item ivu-menu-item-active ivu-menu-item-selected" onClick={() => handleMenuClick('/')}>
                     <img
-                      src="https://image.treasurenft.xyz/NewVer2212/icon/icon_home_01.png"
+                      src={images.icons.home}
                       alt="home"
                       loading="lazy"
                       className="menu-wrap-img"
@@ -126,7 +127,7 @@ const Header = () => {
                   </li>
                   <li className="menu-wrap-item ivu-menu-item" onClick={toggleLanguageDrawer}>
                     <img
-                      src="https://image.treasurenft.xyz/NewVer2212/icon/icon_header_lang.png"
+                      src={images.icons.lang}
                       alt="language"
                       loading="lazy"
                       className="menu-wrap-img"
@@ -135,7 +136,7 @@ const Header = () => {
                   </li>
                   <li className="menu-wrap-item ivu-menu-item" onClick={() => handleMenuClick('/service')}>
                     <img
-                      src="https://image.treasurenft.xyz/NewVer2212/icon/icon_header_servie.png"
+                      src={images.icons.service}
                       alt="service"
                       loading="lazy"
                       className="menu-wrap-img"
@@ -149,7 +150,7 @@ const Header = () => {
                     className="menu-wrap-item ivu-menu-item"
                   >
                     <img
-                      src="https://image.treasurenft.xyz/NewVer2212/logo/icon_tg_color.png"
+                      src={images.social.telegram}
                       alt="Telegram"
                       loading="lazy"
                       className="menu-wrap-img"
@@ -158,7 +159,7 @@ const Header = () => {
                   </a>
                   <li className="menu-wrap-item ivu-menu-item" onClick={() => handleMenuClick('/download')}>
                     <img
-                      src="https://image.treasurenft.xyz/NewVer2212/btn/btn_downloadapp_01_mb.png"
+                      src={images.buttons.downloadApp}
                       alt="downloadApp"
                       loading="lazy"
                       className="menu-wrap-img"
@@ -168,7 +169,7 @@ const Header = () => {
                   <li className="menu-wrap-item ivu-menu-item" onClick={() => handleMenuClick('/message')}>
                     <span className="menu-wrap-item__badge ivu-badge">
                       <img
-                        src="https://image.treasurenft.xyz/icon/icon_stationMessage_01.svg"
+                        src={images.icons.stationMessage}
                         alt="stationMessage"
                         loading="lazy"
                         className="menu-wrap-img menu-wrap-item__imgDot"
@@ -178,7 +179,7 @@ const Header = () => {
                   </li>
                   <li className="menu-wrap-item ivu-menu-item" onClick={() => handleMenuClick('/security')}>
                     <img
-                      src="https://image.treasurenft.xyz/PC/img/iconTap.png"
+                      src={images.ui.tap}
                       alt="securityVerificationTAP"
                       loading="lazy"
                       className="menu-wrap-img"

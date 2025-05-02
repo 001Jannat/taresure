@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/Footer.css';
+import images from '../images.json';
 
 const Footer = () => {
 
@@ -12,7 +13,7 @@ const Footer = () => {
     >
       <div className="ivu-col ivu-col-span-xs-24 ivu-col-span-sm-24 ivu-col-span-md-6 ivu-col-span-lg-6 ivu-col-span-xl-6">
         <img
-          src="https://image.treasurenft.xyz/img/img_logo_home.png"
+          src={images.logos.homeLogo}
           loading="lazy"
           alt="logo"
           className="logo-footer"
@@ -110,7 +111,7 @@ const Footer = () => {
                   style={{ backgroundColor: "rgb(92, 191, 254)" }}
                 >
                   <img
-                    src="https://image.treasurenft.xyz/NewVer2212/icon/icon_download_apple_01.png"
+                    src={images.icons.downloadApple}
                     alt="icon"
                     loading="lazy"
                   />
@@ -129,7 +130,7 @@ const Footer = () => {
                   style={{ backgroundColor: "rgb(160, 245, 208)" }}
                 >
                   <img
-                    src="https://image.treasurenft.xyz/NewVer2212/icon/icon_download_android_01.png"
+                    src={images.icons.downloadAndroid}
                     alt="icon"
                     loading="lazy"
                   />
@@ -148,7 +149,7 @@ const Footer = () => {
                   style={{ backgroundColor: "rgb(255, 215, 200)" }}
                 >
                   <img
-                    src="https://image.treasurenft.xyz/NewVer2212/icon/icon_download_apk_01.png"
+                    src={images.icons.downloadApk}
                     alt="icon"
                     loading="lazy"
                   />

@@ -3,6 +3,7 @@ import { useNavigate, Link } from 'react-router-dom';
 import LazyImage from '../components/LazyImage';
 import '../styles/Signup.css';
 import Header from '../components/Header';
+import images from '../images.json';
 
 const Signup = () => {
   const navigate = useNavigate();
@@ -59,7 +60,7 @@ const Signup = () => {
                 <div data-v-a8e28a02="" className="wallet-btn">
                   <LazyImage
                     data-v-a8e28a02=""
-                    src="https://image.treasurenft.xyz/icon/icon_login_wallet_01.png"
+                    src={images.icons.loginWallet}
                     alt="Wallet"
                     className="wallet-icon"
                   />
@@ -235,7 +236,7 @@ const Signup = () => {
           
           <div className="help-button">
             <LazyImage
-              src="https://image.treasurenft.xyz/btn/btn_help_01.png"
+              src={images.buttons.help}
               alt="Help"
               className="helpIconStyle"
             />

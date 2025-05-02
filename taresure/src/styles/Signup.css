@@ -1,3 +1,5 @@
+@import './images.css';
+
 .login-page {
     min-height: 100vh;
     background: #f5f7f9;
@@ -35,7 +37,7 @@
   }
   
   .loginModal[data-v-a8e28a02] .ivu-modal-header {
-    background-image: url(https://treasurefun.xyz/img/img_header_bg_S.5ccb4208.png);
+    background-image: var(--header-bg);
     padding: 0;
     border-bottom: 0;
     height: 65px;

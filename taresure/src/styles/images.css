@@ -1,0 +1,23 @@
+:root {
+  --header-bg: url(https://treasurefun.xyz/img/img_header_bg_S.5ccb4208.png);
+  --home-logo: url(https://image.treasurenft.xyz/img/img_logo_home.png);
+  --login-wallet: url(https://image.treasurenft.xyz/icon/icon_login_wallet_01.png);
+  --notice: url(https://image.treasurenft.xyz/icon/icon_notice_02.png);
+  --card-tick: url(https://image.treasurenft.xyz/icon/icon_cardTick_01.png);
+  --histogram: url(https://image.treasurenft.xyz/icon/icon_histogram_01.png);
+  --sort: url(https://image.treasurenft.xyz/icon/icon_sort_03.png);
+  --home: url(https://image.treasurenft.xyz/NewVer2212/icon/icon_home_01.png);
+  --lang: url(https://image.treasurenft.xyz/NewVer2212/icon/icon_header_lang.png);
+  --service: url(https://image.treasurenft.xyz/NewVer2212/icon/icon_header_servie.png);
+  --station-message: url(https://image.treasurenft.xyz/icon/icon_stationMessage_01.svg);
+  --download-apple: url(https://image.treasurenft.xyz/NewVer2212/icon/icon_download_apple_01.png);
+  --download-android: url(https://image.treasurenft.xyz/NewVer2212/icon/icon_download_android_01.png);
+  --download-apk: url(https://image.treasurenft.xyz/NewVer2212/icon/icon_download_apk_01.png);
+  --help: url(https://image.treasurenft.xyz/btn/btn_help_01.png);
+  --download-app: url(https://image.treasurenft.xyz/NewVer2212/btn/btn_downloadapp_01_mb.png);
+  --telegram: url(https://image.treasurenft.xyz/NewVer2212/logo/icon_tg_color.png);
+  --close: url(https://image.treasurenft.xyz/PC/img/icon-close_01.svg);
+  --tap: url(https://image.treasurenft.xyz/PC/img/iconTap.png);
+  --no-data: url(https://image.treasurenft.xyz/PC/img/img_nodata.png);
+  --login-photo: url(https://image.treasurenft.xyz/NewVer2212/img/pc_img_login_photo_01_compre.png);
+} 
