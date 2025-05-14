@@ -10,7 +10,7 @@ const Bid = () => {
         // Initialize AOS
         Aos.init({
           duration: 600,
-          once: true, // Whether animation should happen only once - while scrolling down
+          once: true,
           easing: 'ease-out'
         });
       }, []);
