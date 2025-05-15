@@ -1,0 +1,10 @@
+::-webkit-scrollbar {
+    display: none
+}
+
+.overflow-nav-scroll {
+    -webkit-box-pack: start!important;
+    -ms-flex-pack: start!important;
+    justify-content: flex-start!important;
+    overflow: auto
+}

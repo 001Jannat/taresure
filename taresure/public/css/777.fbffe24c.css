@@ -1,0 +1,108 @@
+.margin-right-auto {
+    margin-right: auto
+}
+
+.vertical-center-modal {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.vertical-center-modal .ivu-modal {
+    top: 0
+}
+
+.block-modal .ivu-modal .ivu-modal-content {
+    border-radius: 9999px
+}
+
+.block-modal .ivu-modal .ivu-modal-content .ivu-modal-body {
+    position: relative;
+    padding: 0
+}
+
+.message-box {
+    border: 2px solid transparent;
+    border-radius: 6px;
+    background-clip: padding-box,border-box;
+    background-origin: padding-box,border-box;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#fff),to(#fff)),-webkit-gradient(linear,left top,right top,from(#5cbffe),color-stop(#a0f5d0),to(#ffd7c8));
+    background-image: linear-gradient(#fff,#fff),linear-gradient(90deg,#5cbffe,#a0f5d0,#ffd7c8);
+    padding: 22.5px 30px;
+    border-radius: 10px
+}
+
+.widget {
+    padding: 8px 20px;
+    border-radius: 30px
+}
+
+@media screen and (max-width: 768px) {
+    .widget {
+        padding:8px 12px
+    }
+}
+
+.block-card {
+    position: relative;
+    height: 100%;
+    padding: 10px 20px 27.5px;
+    background-image: url(../img/img_background_06.154808a9.png);
+    background-size: 100% 100%;
+    border-radius: 10px
+}
+
+.block-card__shield {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    top: -12px;
+    left: -10px;
+    width: 462px;
+    height: calc(100% + 24.54px);
+    background: #fff;
+    opacity: .3;
+    -webkit-backdrop-filter: blur(48px);
+    backdrop-filter: blur(48px);
+    border-radius: 15px
+}
+
+@media screen and (max-width: 768px) {
+    .block-card__shield {
+        display:none;
+        width: 295px
+    }
+}
+
+.block-card__header {
+    margin-bottom: 17px
+}
+
+.block-card__close {
+    display: block;
+    width: 11px;
+    height: 11px;
+    cursor: pointer
+}
+
+.block-card__logo {
+    display: block;
+    width: 114px;
+    height: 24px
+}
+
+.block-card__title-box {
+    position: relative;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 35px;
+    color: #000;
+    margin-bottom: 22px
+}

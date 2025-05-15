@@ -17,7 +17,13 @@ const Home = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="home-container">
+
+    <>
+
+    <div id=' dev-id'>
+    <div className="pc-class">
+
+      <div className='ivu-layout'>
       <Header />
       <div className="home-content">
         <div className='ivu-modal-content'>
@@ -164,6 +170,14 @@ const Home = () => {
         onClose={() => setShowTUFTModal(false)} 
       />
     </div>
+
+    </div>
+
+    </div>
+
+
+
+    </>
   );
 };
 

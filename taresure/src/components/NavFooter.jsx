@@ -6,7 +6,7 @@ const NavFooter = () => {
   const navigate = useNavigate();
   const menuItems = [
     { name: 'Stake', path: '/stake' },
-    { name: 'Earn', path: '/earn' },
+    { name: 'Earn', path: '/collection' },
     { name: 'Reserve', path: '/reserve' },
     { name: 'Assets', path: '/assets' },
     { name: 'My', path: '/my' }

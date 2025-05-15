@@ -1,0 +1,116 @@
+.advertisement-carousel[data-v-2fc9d73d] {
+    padding: 50px 5%;
+    background-color: #fff
+}
+
+.carousel-image-box[data-v-2fc9d73d] {
+    width: calc(100% - 192px);
+    margin: 0 auto;
+    padding: 0 2%
+}
+
+.carousel-image[data-v-2fc9d73d] {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 50px
+}
+
+[data-v-2fc9d73d] .ivu-carousel-arrow[type=button] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border: 1px solid #999;
+    background-color: #fff
+}
+
+[data-v-2fc9d73d] .ivu-carousel-arrow[type=button] .ivu-icon:before {
+    position: relative;
+    right: 4px;
+    display: inline-block;
+    width: 29px;
+    height: 47px;
+    content: "";
+    background-image: var(--arrow-left);
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat
+}
+
+[data-v-2fc9d73d] .ivu-carousel-arrow[type=button] .ivu-icon-ios-arrow-forward {
+    rotate: 180deg
+}
+
+[data-v-2fc9d73d] .arrow-continue.ivu-carousel-arrow[type=button] {
+    background-color: #efeff2;
+    border-color: #efeff2
+}
+
+[data-v-2fc9d73d] .arrow-continue.ivu-carousel-arrow[type=button] i.ivu-icon:before {
+    background-image: var(--arrow-left-dark)
+}
+
+[data-v-2fc9d73d] .ivu-carousel-dots-inside {
+    bottom: 9.5%
+}
+
+[data-v-2fc9d73d] .ivu-carousel-dots-inside li {
+    margin: 0
+}
+
+[data-v-2fc9d73d] .ivu-carousel-dots-inside .ivu-carousel-active .radius {
+    background-color: #039be5;
+    width: 20px;
+    height: 20px;
+    border: none
+}
+
+[data-v-2fc9d73d] .ivu-carousel-dots-inside .radius {
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+    background-color: transparent;
+    border: 2px solid #959292;
+    opacity: 1
+}
+
+@media screen and (max-width: 768px) {
+    .advertisement-carousel[data-v-2fc9d73d] {
+        padding:13px 5% 11px;
+        background-color: #fff
+    }
+
+    .carousel-image-box[data-v-2fc9d73d] {
+        width: 100%;
+        margin: 0 auto
+    }
+
+    .carousel-image[data-v-2fc9d73d] {
+        border-radius: 25px
+    }
+
+    [data-v-2fc9d73d] .ivu-carousel-dots-inside {
+        bottom: 6%
+    }
+
+    [data-v-2fc9d73d] .ivu-carousel-dots-inside .ivu-carousel-active .radius {
+        width: 8px;
+        height: 8px
+    }
+
+    [data-v-2fc9d73d] .ivu-carousel-dots-inside .radius {
+        width: 8px;
+        height: 8px;
+        margin: 0 5px
+    }
+}

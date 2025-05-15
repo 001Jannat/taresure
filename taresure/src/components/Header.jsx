@@ -73,7 +73,7 @@ const Header = () => {
   return (
     <>
       <div className="ivu-layout-header">
-        <div className="header pc-class">
+        <div className="header" style={{width:'100%'}}>
           <div className="ivu-row-flex ivu-row-flex-middle ivu-row-flex-space-between">
             <div className="header-logo cursor-pointer ivu-col ivu-col-span-xs-8 ivu-col-span-sm-8 ivu-col-span-md-4 ivu-col-span-lg-4 ivu-col-span-xl-4">
               <Link to="/">
