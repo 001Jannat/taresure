@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+
 import { useNavigate } from 'react-router-dom';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -13,6 +14,10 @@ import NavFooter from '../components/NavFooter';
 import TUFTModal from '../components/TUFTModal';
 
 const Home = () => {
+
+
+  console.log('Home rendered');
+  
   const [showTUFTModal, setShowTUFTModal] = useState(false);
   const navigate = useNavigate();
 
@@ -20,7 +25,7 @@ const Home = () => {
 
     <>
 
-    <div id=' dev-id'>
+    <div id='dev-id'>
     <div className="pc-class">
 
       <div className='ivu-layout'>

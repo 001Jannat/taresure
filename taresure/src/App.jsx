@@ -1,11 +1,9 @@
 import React, { lazy, Suspense, useEffect, useState, useRef } from 'react';
-import { HashRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes, useLocation, useNavigate } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
-
 // Lazy-loaded components
-
 const Home = lazy(() => import('./pages/Home'));
 const Login = lazy(() => import('./pages/Login'));
 const Signup = lazy(() => import('./pages/Signup'));
@@ -24,7 +22,7 @@ const Level = lazy(() => import('./pages/Level'));
 const PointRecord = lazy(() => import('./pages/pointRecord'));
 const Memberlist = lazy(() => import('./pages/memberlist'));
 const TeamContribution = lazy(() => import('./pages/teamContribution'));
-const TeamOrder = lazy(() => import('./teamOrder'));
+const TeamOrder = lazy(() => import('./pages/teamOrder'));
 const ShareCenter = lazy(() => import('./pages/shareCenter'));
 const Bidding = lazy(() => import('./pages/bidding'));
 const MyEarnings = lazy(() => import('./pages/myEarnings'));
@@ -39,8 +37,17 @@ const Loading = () => <div>Loading...</div>;
 // Component handling route and global behaviors
 function AppContent() {
   const location = useLocation();
+  const navigate = useNavigate();
   const [isOnline, setIsOnline] = useState(navigator.onLine);
   const leaveTimestamp = useRef(null);
+
+  // Redirect / to /index
+  useEffect(() => {
+    if (location.pathname === '/') {
+      console.log('Redirecting from / to /index');
+      navigate('/index', { replace: true });
+    }
+  }, [location, navigate]);
 
   // Online/offline detection
   useEffect(() => {
@@ -78,6 +85,7 @@ function AppContent() {
 
   // Route change effects
   useEffect(() => {
+    console.log('Route changed to:', location.pathname); // Debug log
     window.scrollTo({ top: 0, behavior: 'smooth' });
 
     const handleWheel = (e) => {
@@ -114,7 +122,7 @@ function AppContent() {
   return (
     <Suspense>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={null} />
         <Route path="/index" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
@@ -154,8 +162,10 @@ function AppContent() {
 // Main App with Router
 export default function App() {
   return (
-    <Router>
-      <AppContent />
-    </Router>
+    <div id="dev-id">
+      <Router>
+        <AppContent />
+      </Router>
+    </div>
   );
 }
