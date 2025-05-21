@@ -112,9 +112,10 @@ function AppContent() {
   }, [location]);
 
   return (
-    <Suspense fallback={<Loading />}>
+    <Suspense>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/index" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/service" element={<Service />} />
