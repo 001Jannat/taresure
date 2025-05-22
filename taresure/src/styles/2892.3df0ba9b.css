@@ -1,0 +1,140 @@
+.tuft-buy-modal .icon[data-v-b13c8bb0],
+.tuft-buy-modal .img[data-v-b13c8bb0] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.tuft-buy-modal .cursor-pointer[data-v-b13c8bb0] {
+    cursor: pointer
+}
+
+.tuft-buy-modal .purchase-qty-input[data-v-b13c8bb0] {
+    padding: 8px 8px 8px 20px;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff)), -webkit-gradient(linear, left top, right top, from(#5cbffe), color-stop(#a0f5d0), to(#ffd7c8));
+    background-image: linear-gradient(#fff, #fff), linear-gradient(90deg, #5cbffe, #a0f5d0, #ffd7c8)
+}
+
+#dev-id~.v-transfer-dom .tuft-buy-modal .purchase-qty-input[data-v-b13c8bb0] .ivu-input {
+    padding: 0;
+    padding-right: 40%;
+    background-color: #fff;
+    border: none;
+    color: #787885;
+    height: 35px;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 0
+}
+
+.tuft-buy-modal .purchase-qty-input[data-v-b13c8bb0] .ivu-input-suffix {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    left: unset;
+    right: 0
+}
+
+.tuft-buy-modal .purchase-qty-input__currency[data-v-b13c8bb0] {
+    color: #26a17b;
+    font-size: 14px;
+    font-weight: 700
+}
+
+.tuft-buy-modal .purchase-qty-input__btn[data-v-b13c8bb0] {
+    padding: 8px 20px;
+    border-radius: 50px;
+    border: 1px solid #65c6f9;
+    background: #65c6f9;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-wrap: nowrap
+}
+
+.tuft-buy-modal .purchase-qty-input__btn[data-v-b13c8bb0]:hover {
+    background: #4cbdf8;
+    cursor: pointer
+}
+
+.tuft-buy-modal .purchase-qty-input__display[data-v-b13c8bb0] {
+    padding: 4px 0 4px 7px
+}
+
+.tuft-buy-modal .rules[data-v-b13c8bb0] {
+    padding: 20px;
+    border-radius: 13px;
+    border: 1px dashed #42cbde;
+    background: rgba(221, 255, 252, .5)
+}
+
+#dev-id~.tuft-buy-modal.v-transfer-dom .ivu-btn.ivu-btn-primary[data-v-b13c8bb0] {
+    height: 58px
+}
+
+#dev-id~.tuft-buy-modal.v-transfer-dom .ivu-btn.ivu-btn-primary[data-v-b13c8bb0] span {
+    vertical-align: sub
+}
+
+@media screen and (max-width:768px) {
+    #dev-id~.tuft-buy-modal.v-transfer-dom .ivu-btn.ivu-btn-primary[data-v-b13c8bb0] {
+        height: 48px
+    }
+}
+
+.tuft-buy-modal .vertical-center-modal[data-v-b13c8bb0] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.tuft-buy-modal .vertical-center-modal .ivu-modal[data-v-b13c8bb0] {
+    top: 0
+}
+
+.tuft-buy-modal[data-v-b13c8bb0] .ivu-modal-header {
+    border-bottom: 0;
+    padding: 28px
+}
+
+.tuft-buy-modal[data-v-b13c8bb0] .ivu-modal-content {
+    border-radius: 20px
+}
+
+@media screen and (max-width:768px) {
+    .tuft-buy-modal[data-v-b13c8bb0] .ivu-modal-content {
+        border-radius: 12px
+    }
+}
+
+.tuft-buy-modal[data-v-b13c8bb0] .ivu-modal-body {
+    padding: 0 16px 16px
+}
+
+.tuft-buy-modal[data-v-b13c8bb0] .ivu-modal-footer {
+    border-top: 0;
+    display: block;
+    padding: 16px 24px;
+    background: #f1f1f1;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px
+}
+
+@media screen and (max-width:768px) {
+    .tuft-buy-modal[data-v-b13c8bb0] .ivu-modal-footer {
+        background: none;
+        padding: 0 28px 32px;
+        border-bottom-right-radius: 12px;
+        border-bottom-left-radius: 12px
+    }
+}

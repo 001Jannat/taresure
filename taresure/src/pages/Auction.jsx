@@ -8,6 +8,8 @@ import { Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import '../styles/Auction.css';
+import '../styles/app-a10eabc0.77615b62.css'
+import '../styles/app-0cca9b5b.8b5cd33b.css'
 
 const Auction = () => {
   const carouselImages = [
@@ -16,8 +18,16 @@ const Auction = () => {
   ];
 
   return (
+    <div className='dev-id'>
+
+  <div data-v-c95ea770="" className="header header-translucent">
+   <Header />
+  </div>
+
+
+
+
     <div className="auction-container">
-      <Header />
       <div className="auction-content">
         <div className="ivu-row-flex ivu-row-flex-top ivu-row-flex-space-between">
           {/* Carousel Section */}
@@ -77,6 +87,7 @@ const Auction = () => {
       </div>
       <Footer />
       <NavFooter />
+    </div>
     </div>
   );
 };

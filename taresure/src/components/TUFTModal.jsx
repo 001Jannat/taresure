@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import LazyImage from './LazyImage';
 import '../styles/TUFTModal.css';
+import '../styles/2892.3df0ba9b.css'
+import '../styles/app-0cca9b5b.8b5cd33b.css'
 
 const TUFTModal = ({ isVisible, onClose }) => {
   const [amount, setAmount] = useState('');
@@ -27,6 +29,7 @@ const TUFTModal = ({ isVisible, onClose }) => {
             <div
               data-v-32aa64be=""
               className="ivu-row-flex ivu-row-flex-middle ivu-row-flex-space-between"
+              style={{ marginRight: '20px' }}
             >
               <div data-v-32aa64be="" className="ivu-col">
                 <h3 data-v-32aa64be="" className="font-weight-700 title-black-PR-28">
@@ -43,7 +46,7 @@ const TUFTModal = ({ isVisible, onClose }) => {
                   <div
                     data-v-32aa64be=""
                     className="ivu-col"
-                    style={{ paddingLeft: 5, paddingRight: 5 }}
+                    style={{ paddingLeft: 60, paddingRight: 10 }}
                   >
                     <img
                       data-v-32aa64be=""
@@ -58,7 +61,7 @@ const TUFTModal = ({ isVisible, onClose }) => {
                   <div
                     data-v-32aa64be=""
                     className="ivu-col"
-                    style={{ paddingLeft: 5, paddingRight: 5 }}
+                    style={{ paddingRight: 2 }}
                   >
                     <img
                       data-v-32aa64be=""
@@ -90,7 +93,7 @@ const TUFTModal = ({ isVisible, onClose }) => {
                       <div
                         data-v-32aa64be=""
                         className="ivu-row-flex ivu-row-flex-middle"
-                        style={{ marginLeft: "-5px", marginRight: "-5px", flexWrap: "nowrap" }}
+                        style={{ marginLeft: "-60px", marginRight: "-20px", flexWrap: "nowrap" }}
                       >
                         <div
                           data-v-32aa64be=""
