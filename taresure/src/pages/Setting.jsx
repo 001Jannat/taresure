@@ -1,4 +1,5 @@
 import React from 'react';
+import Header from '../components/Header'
 
 const Setting = () => {
   return (
@@ -15,7 +16,7 @@ const Setting = () => {
     <div data-v-b02889ae="" className="ivu-layout">
       
 
-
+<Header/>
 
 
       <div data-v-b02889ae="" className="content-wrap">

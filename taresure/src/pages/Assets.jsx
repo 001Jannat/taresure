@@ -1,4 +1,6 @@
 import React from 'react';
+import Header from '../components/Header';
+import NavFooter from '../components/NavFooter';
 
 const Assets = () => {
   return (
@@ -7,6 +9,10 @@ const Assets = () => {
 <div id="dev-id">
   <div data-v-b02889ae="" className="pc-class">
     <div data-v-b02889ae="" className="ivu-layout">
+
+
+
+       <Header />
       <div data-v-b02889ae="" className="content-wrap">
         <div
           data-v-3aa04343=""
@@ -615,6 +621,10 @@ const Assets = () => {
           style={{}}
         />
       </div>
+
+
+<NavFooter/>
+
     </div>
     {/**/}
     <div data-v-d27ce888="" data-v-b02889ae="">

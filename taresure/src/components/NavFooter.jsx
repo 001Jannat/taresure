@@ -13,6 +13,9 @@ const NavFooter = () => {
   ];
 
   return (
+
+
+    
     <div
       data-v-b02889ae=""
       className="footer-nav-outer ivu-row-flex ivu-row-flex-middle"

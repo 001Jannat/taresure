@@ -1,7 +1,7 @@
 import React from 'react';
 import { Outlet, Link, useNavigate } from 'react-router-dom';
 import Header from '../components/Header';
-
+import NavFooter from '../components/NavFooter';
 
 const My = () => {
 
@@ -912,6 +912,7 @@ const My = () => {
 
 
 
+<NavFooter/>
 
 
     </div>

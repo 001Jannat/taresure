@@ -1,7 +1,9 @@
-import Header from '../components/Header';
+
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../styles/Stack.css';
+import Header from '../components/Header';
+import NavFooter from '../components/NavFooter';
 
 const Stake = () => {
 
@@ -18,6 +20,12 @@ const Stake = () => {
    <div id="dev-id">
   <div data-v-b02889ae="true" className="pc-class">
     <div data-v-b02889ae="true" className="ivu-layout">
+
+      <Header />
+     
+
+
+
       <div data-v-b02889ae="true" className="content-wrap">
         <div
           data-v-b02889ae="true"
@@ -4342,11 +4350,21 @@ style={{
           style={{ display: "none" }}
         />
       </div>
+
+
+      < NavFooter />
+
+
+
+
+
+
     </div>
     <div data-v-d27ce888="true" data-v-b02889ae="true" />
     <div data-v-d9d51de4="true" data-v-b02889ae="true" />
   </div>
 </div>
+
 
     
     </>

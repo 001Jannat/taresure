@@ -85,7 +85,7 @@ const Header = () => {
               </Link>
             </div>
 
-            <div className="header-right-section ivu-col">
+            <div className="header-right-section ivu-col" style={{ margin: 0, padding: 0, width: "60%", display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center", marginBottom: 25 }}>
               <div className="header-btns setMiddle margin-right-18">
                 <span className="ivu-badge">
                   <img

@@ -1,4 +1,5 @@
 import React from 'react';
+import Header from '../components/Header'
 
 const Memberlist = () => {
   return (
@@ -7,6 +8,9 @@ const Memberlist = () => {
  <div id="dev-id">
   <div data-v-b02889ae="" className="pc-class">
     <div data-v-b02889ae="" className="ivu-layout">
+
+      <Header/>
+
       <div data-v-b02889ae="" className="content-wrap">
         <div
           data-v-41139aa5=""

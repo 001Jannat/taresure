@@ -1,7 +1,9 @@
 import Header from '../components/Header';
+import NavFooter from '../components/NavFooter';
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../styles/Stack.css';
+
 
 const Collection = () => {
 
@@ -17,6 +19,10 @@ const Collection = () => {
 <div id="dev-id">
   <div data-v-b02889ae="" className="pc-class">
     <div data-v-b02889ae="" className="ivu-layout">
+
+
+
+      <Header/>
       <div data-v-b02889ae="" className="content-wrap">
         <div
           data-v-0113e2d8=""
@@ -2339,6 +2345,9 @@ const Collection = () => {
           style={{ display: "none" }}
         />
       </div>
+
+
+      <NavFooter/>
     </div>
     {/**/}
     <div data-v-d27ce888="" data-v-b02889ae="">

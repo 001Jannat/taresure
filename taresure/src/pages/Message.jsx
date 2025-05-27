@@ -15,34 +15,8 @@ const Message = () => {
   return (
     <div className="ivu-layout">
       <div className="ivu-layout-header">
-        {/* <div className="header">
-          <div className="ivu-row-flex ivu-row-flex-middle ivu-row-flex-space-between">
-            <div className="header-logo cursor-pointer setLeft ivu-col ivu-col-span-xs-13 ivu-col-span-sm-13 ivu-col-span-md-4 ivu-col-span-lg-4 ivu-col-span-xl-4">
-              <img
-                src="https://image.treasurenft.xyz/img/img_logo_home.png"
-                alt="logo"
-                loading="lazy"
-              />
-            </div>
-            <div className="header-btns setMiddle ivu-col margin-right-10" style={{ marginLeft: "auto" }}>
-              <span className="ivu-badge">
-                <img
-                  src="https://image.treasurenft.xyz/icon/icon_notice_02.png"
-                  alt="announcement"
-                  loading="lazy"
-                  className="setMiddle"
-                />
-                <sup className="ivu-badge-dot" />
-              </span>
-            </div>
-            <div className="header-btns cursor-pointer ivu-col">
-              <span className="ivu-badge">
-                <p className="specialText-PR-16 badge-title">Airdrop</p>
-                <div className="specialLine" />
-              </span>
-            </div>
-          </div>
-        </div> */}
+       
+       
         <Header />
       </div>
 
